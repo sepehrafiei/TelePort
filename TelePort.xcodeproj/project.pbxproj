@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA079A672BE3511A00ECAF62 /* GameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA079A662BE3511A00ECAF62 /* GameData.swift */; };
+		AA27DC3A2BE454E900920C8D /* ItemDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA27DC392BE454E900920C8D /* ItemDataSource.swift */; };
+		AA27DC3C2BE4AAF600920C8D /* RuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA27DC3B2BE4AAF600920C8D /* RuleView.swift */; };
+		AA78F2DE2BD717390063184A /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA78F2DD2BD717390063184A /* Cell.swift */; };
+		AA78F2E02BD71E3C0063184A /* MiniBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA78F2DF2BD71E3C0063184A /* MiniBoard.swift */; };
+		AA78F2E22BD72B9C0063184A /* GameLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA78F2E12BD72B9C0063184A /* GameLogic.swift */; };
+		AA78F2E42BD789B60063184A /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA78F2E32BD789B60063184A /* Menu.swift */; };
+		AA78F2E62BD78A1C0063184A /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AA78F2E52BD78A1B0063184A /* logo.png */; };
+		AA78F2EA2BD87DD90063184A /* MiniGameLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA78F2E92BD87DD90063184A /* MiniGameLogic.swift */; };
+		AA78F2EC2BD8AB8F0063184A /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA78F2EB2BD8AB8F0063184A /* GameView.swift */; };
 		AA8491E42BD70AB100DC9390 /* TelePortApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8491E32BD70AB100DC9390 /* TelePortApp.swift */; };
 		AA8491E62BD70AB100DC9390 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8491E52BD70AB100DC9390 /* ContentView.swift */; };
 		AA8491E82BD70AB300DC9390 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA8491E72BD70AB300DC9390 /* Assets.xcassets */; };
@@ -14,6 +24,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA079A662BE3511A00ECAF62 /* GameData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameData.swift; sourceTree = "<group>"; };
+		AA27DC392BE454E900920C8D /* ItemDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDataSource.swift; sourceTree = "<group>"; };
+		AA27DC3B2BE4AAF600920C8D /* RuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleView.swift; sourceTree = "<group>"; };
+		AA78F2DD2BD717390063184A /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		AA78F2DF2BD71E3C0063184A /* MiniBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniBoard.swift; sourceTree = "<group>"; };
+		AA78F2E12BD72B9C0063184A /* GameLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLogic.swift; sourceTree = "<group>"; };
+		AA78F2E32BD789B60063184A /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		AA78F2E52BD78A1B0063184A /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		AA78F2E92BD87DD90063184A /* MiniGameLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniGameLogic.swift; sourceTree = "<group>"; };
+		AA78F2EB2BD8AB8F0063184A /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		AA8491E02BD70AB100DC9390 /* TelePort.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelePort.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA8491E32BD70AB100DC9390 /* TelePortApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelePortApp.swift; sourceTree = "<group>"; };
 		AA8491E52BD70AB100DC9390 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +75,16 @@
 				AA8491E52BD70AB100DC9390 /* ContentView.swift */,
 				AA8491E72BD70AB300DC9390 /* Assets.xcassets */,
 				AA8491E92BD70AB300DC9390 /* Preview Content */,
+				AA78F2DD2BD717390063184A /* Cell.swift */,
+				AA78F2DF2BD71E3C0063184A /* MiniBoard.swift */,
+				AA78F2E12BD72B9C0063184A /* GameLogic.swift */,
+				AA78F2E32BD789B60063184A /* Menu.swift */,
+				AA78F2E52BD78A1B0063184A /* logo.png */,
+				AA78F2E92BD87DD90063184A /* MiniGameLogic.swift */,
+				AA78F2EB2BD8AB8F0063184A /* GameView.swift */,
+				AA079A662BE3511A00ECAF62 /* GameData.swift */,
+				AA27DC392BE454E900920C8D /* ItemDataSource.swift */,
+				AA27DC3B2BE4AAF600920C8D /* RuleView.swift */,
 			);
 			path = TelePort;
 			sourceTree = "<group>";
@@ -127,6 +157,7 @@
 			files = (
 				AA8491EB2BD70AB300DC9390 /* Preview Assets.xcassets in Resources */,
 				AA8491E82BD70AB300DC9390 /* Assets.xcassets in Resources */,
+				AA78F2E62BD78A1C0063184A /* logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +168,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA78F2E42BD789B60063184A /* Menu.swift in Sources */,
 				AA8491E62BD70AB100DC9390 /* ContentView.swift in Sources */,
+				AA78F2EA2BD87DD90063184A /* MiniGameLogic.swift in Sources */,
 				AA8491E42BD70AB100DC9390 /* TelePortApp.swift in Sources */,
+				AA78F2DE2BD717390063184A /* Cell.swift in Sources */,
+				AA27DC3C2BE4AAF600920C8D /* RuleView.swift in Sources */,
+				AA78F2E22BD72B9C0063184A /* GameLogic.swift in Sources */,
+				AA78F2EC2BD8AB8F0063184A /* GameView.swift in Sources */,
+				AA079A672BE3511A00ECAF62 /* GameData.swift in Sources */,
+				AA78F2E02BD71E3C0063184A /* MiniBoard.swift in Sources */,
+				AA27DC3A2BE454E900920C8D /* ItemDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TelePort/Preview Content\"";
+				DEVELOPMENT_TEAM = NFZMSPYMHD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -279,6 +320,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,6 +342,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TelePort/Preview Content\"";
+				DEVELOPMENT_TEAM = NFZMSPYMHD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -307,6 +350,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
